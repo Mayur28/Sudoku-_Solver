@@ -9,7 +9,7 @@ The illustration below shows the input to our solution, along with its correspon
 
 # Data
 
-I created my own dataset by photgraphing images of sudoku puzzles from hard copy books. Thereafter, the data was preprocessed such that 65 images of individual digits of each digit was attained.
+I created my own dataset by photgraphing images of sudoku puzzles from hard copy books. Thereafter, the data was preprocessed such that 65 images of each digit was attained.
 
 # Solution
 The implementation heavily relies on python and OpenCV. The solution involves performing a series of image processing techniques such as noise removal (using erosion and dilation operations), extracting contours, performing a perspective transformation, template matching, and many others.
